@@ -26,7 +26,7 @@ const data = {
     description: [
       <>
   
-The <Link to="/synbio-orators" className="
+ <Link to="/synbio-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
       The International Synthetic Biology & Bioengineering Forum, </Link> organized by Helix Conferences, is a distinguished international platform dedicated to advancing synthetic biology research, bioengineering applications, and next-generation <Link to="/about-synbio"   className="

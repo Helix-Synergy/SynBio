@@ -1,41 +1,41 @@
 
 // images
-import Aline from "../../assets/Pannel Members/Aline .png";
-import Marko from "../../assets/Pannel Members/marko.png";
-import Bonginkosi from "../../assets/Pannel Members/Bon.png";
-import William from "../../assets/Pannel Members/willimas.png";
+import Chet from "../../assets/Pannel Members/Chet.png";
+import Eka from "../../assets/Pannel Members/Eka.png";
+import Lorenzo from "../../assets/Pannel Members/Lor.png";
+import Marcus from "../../assets/Pannel Members/Marcus.png";
 
 export const panel_members_about = [
   {
     id: "Paul",
-    image: Aline,
-    name: "Aline Theodoro Toci",
-    from: " Brazil",
-    about: " Federal University of Latin American Integration ",
+    image: Chet,
+    name: "Chet Narayan Acharya",
+    from: " Nepal",
+    about: " Prince of Songkla University ",
     // link: "/executive-panel-members/velimir",
   },
   {
     id: "Koji Nomura ",
-    image: Marko,
-    name: "Marko Vinceković" ,
-    from: " Croatia",
-    about: " University of Zagreb Faculty of Agriculture ",
+    image: Eka,
+    name: "Eka Devidze" ,
+    from: " Georgia",
+    about: "  International Black Sea ",
     // link: "/executive-panel-members/Raenu",
   },
   {
     id: "Rd",
-    image:Bonginkosi,
-    name: " Bonginkosi E. Mthembu",
-    from: "South Africa",
-    about: "Mangosuthu University of Technology",
+    image:Lorenzo,
+    name: "  Lorenzo Sabattini",
+    from: " Italy",
+    about: "University of Modena and Reggio Emilia",
     // link: "/executive-panel-members/Rd",
   },
   {
     id: "Paulo",
-    image: William,
-    name: "William Meng",
-    from: "Australia",
-    about: "Victorian Academy of Teaching",
+    image: Marcus,
+    name: "Marcus Obeng Sika",
+    from: "United Kingdom",
+    about: "University of Buckingham",
     // link: "/executive-panel-members/Paulo",
   },
   // Second row
