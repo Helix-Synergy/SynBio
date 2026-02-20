@@ -2,7 +2,7 @@ import one from "../../assets/partners/one.jpg";
 import two from "../../assets/partners/two.jpg";
 import three from "../../assets/partners/three.jpg";
 import four from "../../assets/partners/four.jpg";
-import five from "../../assets/partners/five.jpg";
+import five from "../../assets/partners/five.png";
 import six from "../../assets/partners/six.jpg";
 import seven from "../../assets/partners/seven.jpg";
 import eight from "../../assets/partners/eight.jpg";

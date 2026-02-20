@@ -14,9 +14,9 @@ const Home = () => {
         <div className="relative z-2 flex flex-col items-start px-1 md:px-8 mt-4 justify-center h-full text-lightGreen text-2xl md:text-3xl font-bold">
           
           <div className="flex flex-row items-end gap-4">
-            <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
+            <h2 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
           June
-            </h1>
+            </h2>
 
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold text-one">

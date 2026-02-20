@@ -12,19 +12,19 @@ const ImageGalleryCard = () => {
       <div className="flex flex-wrap md:flex-nowrap gap-4 justify-center">
         <img
           src={img1}
-          alt=""
+          alt="VenueImage1"
           loading="lazy"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />
         <img
           src={img2}
-          alt=""
+          alt="VenueImage2"
           loading="lazy"
           className="h-44 w-full sm:w-[60%] object-cover rounded-xl"
         />
         <img
           src={img3}
-          alt=""
+           alt="VenueImage3"
           loading="lazy"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />
@@ -34,19 +34,19 @@ const ImageGalleryCard = () => {
       <div className="flex flex-wrap md:flex-nowrap gap-4 justify-center">
         <img
           src={img4}
-          alt=""
+            alt="VenueImage4"
           loading="lazy"
           className="h-44 w-full sm:w-[60%] object-cover rounded-xl"
         />
         <img
           src={img5}
-          alt=""
+          alt="VenueImage5"
           loading="lazy"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />
         <img
           src={img6}
-          alt=""
+          alt="VenueImage6"
           loading="lazy"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />

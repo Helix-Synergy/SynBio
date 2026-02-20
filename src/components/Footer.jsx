@@ -29,19 +29,17 @@ const Footer = () => {
             loading="lazy"
 
           />
-          <br />
-        <p style={{}}>
-   “Advancing Life Sciences Through Synthetic Biology ”
-        </p>
-       
+ <p className="text-slate-200 text-sm px-4 md:px-8 mt-2">
+            Advancing Life Sciences Through Synthetic Biology
+          </p>
         </div>
       </div>
 
       {/* Grid 2 */}
       <div className="w-full md:w-1/4 flex flex-col items-center md:items-start text-center md:text-left">
-        <h1 className="text-one font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
+        <h2 className="text-one font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
           Quick Links
-        </h1>
+        </h2>
         <div className="flex flex-col justify-evenly mt-6 gap-[10px] w-full">
           {nav_links.map((item, idx) => (
             <div
@@ -57,9 +55,9 @@ const Footer = () => {
 
       {/* Grid 3 */}
       <div className="w-full md:w-1/4 flex flex-col items-center md:items-start text-center md:text-left">
-        <h1 className="text-one font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
+        <h2 className="text-one font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
           Social Media
-        </h1>
+        </h2>
         <div className="flex flex-col mt-4 gap-2 w-full">
           {socialLinks.map(({ id, name, url, icon }) => (
             <div key={id} className="flex flex-row items-center justify-center md:justify-start">
@@ -80,9 +78,9 @@ const Footer = () => {
 
       {/* Grid 4 */}
       <div className="w-full md:w-1/4 flex flex-col gap-4 items-center md:items-start text-center md:text-left">
-        <h1 className="text-one font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
+        <h2 className="text-one font-semibold text-2xl sm:text-3xl border-b border-accent w-full pb-1">
           Get In Touch
-        </h1>
+        </h2>
         <div className="flex flex-col gap-6 w-full">
 
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start text-sm sm:text-base">
@@ -96,11 +94,9 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-row gap-2 items-start justify-center md:justify-start px-4 md:px-0 text-sm sm:text-base">
-            <MapPin size="44" />
+            <MapPin size="30" />
             <p className="text-left">
-              Helix Conferences LLC,<br />
-              45573 Shepard Drive, Suit#101,<br />
-              Sterling, Virginia-20164, USA
+           Vancouver | Canada
             </p>
           </div>
         </div>

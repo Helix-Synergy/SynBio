@@ -55,6 +55,7 @@ const EventSchedule = ({ height, name, link }) => {
 
         {[1, 2].map((day) => (
           <button
+           aria-label="Button"
             key={day}
             onClick={() => setSelectedDay(day)}
             className={`flex items-center gap-3 px-4 py-2 rounded-full border border-accent/40 text-xs md:text-sm font-medium shadow-[0_4px_20px_rgba(0,0,0,0.1)] transition-all duration-300 ${

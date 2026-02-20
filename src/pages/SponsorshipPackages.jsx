@@ -1,12 +1,12 @@
-import { Sparkles} from "lucide-react";
+import { Sparkles } from "lucide-react";
 import React from "react";
 // import { Link } from "react-router-dom";
-import silver from "../assets/badges/silver.png"
-import gold from "../assets/badges/gold.png"
-import platinum from "../assets/badges/platinum.png"
-import exhibitor from "../assets/badges/exhibitor.png"
+import silver from "../assets/badges/silver.png";
+import gold from "../assets/badges/gold.png";
+import platinum from "../assets/badges/platinum.png";
+import exhibitor from "../assets/badges/exhibitor.png";
 import { banner_style } from "../Styles/styles";
-import event from "../assets/Images1/Eventpartners.png"
+import event from "../assets/Images1/Eventpartners.png";
 const sponsorshipPackages = [
   {
     type: "Silver Sponsor",
@@ -67,11 +67,13 @@ const last_item = [
         "Logo on sponsorship page",
         "A4 color ad in program/book of abstracts",
       ],
-      ["Leaflet in delegate bags",
+      [
+        "Leaflet in delegate bags",
         "Online promotion on all social platforms",
-       "5% waiver for next year",
+        "5% waiver for next year",
         "Product recognition on global website",
-        "B2B meeting opportunities",],
+        "B2B meeting opportunities",
+      ],
       [
         "Branding at ceremonies",
         "Press release for your company",
@@ -83,19 +85,17 @@ const last_item = [
   },
 ];
 
-
 const SponsorshipPackages = () => {
   return (
     <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-    <div
-  className={`${banner_style} w-full mx-auto event-partners-banner`}
-  style={{
-    backgroundImage: `url(${event})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-
+      <div
+        className={`${banner_style} w-full mx-auto event-partners-banner`}
+        style={{
+          backgroundImage: `url(${event})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Sponsorship Packages
         </h1>{" "}
@@ -113,13 +113,11 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Badge"
                   loading="lazy"
                   className="object-contain w-16 h-16"
                 />
-                <h2 className="text-2xl font-semibold text-one ">
-                  {pkg.type}
-                </h2>
+                <h2 className="text-2xl font-semibold text-one ">{pkg.type}</h2>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 {pkg.benefits.map((benefit, index) => (
@@ -154,7 +152,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center justify-start gap-4">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Badge"
                   // loading="lazy"
                   className="object-contain w-16 h-16"
                 />
@@ -199,7 +197,5 @@ const SponsorshipPackages = () => {
 };
 
 export default SponsorshipPackages;
-
-
 
 // export default SponsorshipPackages;

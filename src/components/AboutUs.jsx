@@ -32,7 +32,7 @@ loading="lazy"
           <span className="text-one">Advancing Global Leadership  </span>{" "}
    Synthetic Biology & Bioengineering
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
         Welcome to the premier global platform for the  <Link to="https://helixconferences.com/buy-a-ticket"  className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">International Synthetic Biology & Bioengineering Forum</Link>  Our international summits convene leading experts and decision-makers driving advancements in synthetic biology, bioengineering, biotechnology innovations, and sustainable biomanufacturing. The forum brings together researchers, bioengineers, entrepreneurs, policymakers, industry leaders, and sustainability professionals to address critical challenges and opportunities shaping the future of synthetic biology, bioengineering solutions, and next-generation biotechnology applications.
