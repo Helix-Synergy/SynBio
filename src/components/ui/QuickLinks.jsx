@@ -22,11 +22,11 @@ const links = [
     label: 'Submit Abstract',
     link: '/abstract-submission'
   },
-  {
+   {
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/FOODMICROBIOME_brochure.pdf'
+    link: '/2027-SYNBIO.pdf'
   },
   {
     id: 'event-schedule',

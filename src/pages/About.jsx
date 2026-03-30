@@ -139,7 +139,7 @@ Fostering Collaboration Driving Breakthroughs in Biotechnology
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
-          25<sup></sup> - 26<sup></sup> June 2026
+          29<sup></sup> - 30<sup></sup> June 2027
         </strong>
       </p>
 
@@ -155,7 +155,7 @@ Fostering Collaboration Driving Breakthroughs in Biotechnology
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at on SYNBIO-2026
+          Join the Global Community at on SYNBIO-2027
         </h2>
         {data.join.map((para, idx) => (
           <p

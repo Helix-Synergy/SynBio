@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is SYNBIO-2026?",
+    question: "What is SYNBIO-2027?",
     answer:
-      "SYNBIO-2026, officially titled the “International Synthetic Biology & Bioengineering Forum”, is a premier global conference organized by Helix Conferences. It brings together researchers, innovators, industry leaders, startups, and policymakers to explore breakthroughs in synthetic biology, bioengineering, genome engineering, AI-driven biology, and next-generation biotechnologies.",
+      "SYNBIO-2027, officially titled the “International Synthetic Biology & Bioengineering Forum”, is a premier global conference organized by Helix Conferences. It brings together researchers, innovators, industry leaders, startups, and policymakers to explore breakthroughs in synthetic biology, bioengineering, genome engineering, AI-driven biology, and next-generation biotechnologies.",
   },
   {
-    question: "When and where will SYNBIO-2026 take place?",
+    question: "When and where will SYNBIO-2027 take place?",
     answer:
-      "SYNBIO-2026 will take place in 2026. The exact dates and venue will be announced soon.",
+      "SYNBIO-2027 will take place in 2027. The exact dates and venue will be announced soon.",
   },
   {
-    question: "What are the highlights of SYNBIO-2026?",
+    question: "What are the highlights of SYNBIO-2027?",
     answer:
       "Keynote lectures by global experts, advanced research presentations, technology showcases, expert panel discussions, startup innovation forums, collaborative workshops, and high-impact networking opportunities in synthetic biology and bioengineering.",
   },
   {
-    question: "What scientific and technology tracks are featured at SYNBIO-2026?",
+    question: "What scientific and technology tracks are featured at SYNBIO-2027?",
     answer: (
       <>
         You can explore the complete list of forum tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          SYNBIO-2026 Tracks
+          SYNBIO-2027 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract or presentation proposal for SYNBIO-2026?",
+    question: "How can I submit an abstract or presentation proposal for SYNBIO-2027?",
     answer: (
       <>
         Abstract and presentation submissions can be made{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Standard presentation slots are typically 15–20 minutes, including discussion time. Final presentation guidelines will be shared upon acceptance.",
   },
   {
-    question: "Who should attend SYNBIO-2026?",
+    question: "Who should attend SYNBIO-2027?",
     answer:
       "Synthetic biologists, bioengineers, molecular biologists, biomedical researchers, AI-in-biology experts, startups, investors, industry professionals, academicians, and policy makers from across the globe.",
   },
   {
-    question: "How many participants are expected at SYNBIO-2026?",
+    question: "How many participants are expected at SYNBIO-2027?",
     answer:
-      "SYNBIO-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, startups, and sponsors.",
+      "SYNBIO-2027 is expected to host 150+ international participants, including speakers, delegates, exhibitors, startups, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts or proposals?",

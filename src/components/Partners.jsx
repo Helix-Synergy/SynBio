@@ -38,7 +38,7 @@ const Partners = () => {
     <div className="py-16 bg-white flex flex-col items-center">
       {/* <p className="text-one font-semibold text-xl mb-2">Partners</p> */}
       <h1 className="text-4xl text-black font-bold text-center mb-10">
-      SynBio - Event Partners
+ SynBio - Event Partners
       </h1>
 
       {/* Carousel Container */}

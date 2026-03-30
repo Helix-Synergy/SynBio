@@ -17,7 +17,7 @@ const Schedule = () => {
         }}
       >
         <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-  SYNBIO - 2026
+  SYNBIO - 2027
         </h1>
       </div>
 

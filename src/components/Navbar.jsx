@@ -293,7 +293,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile/Tablet Burger Menu Button */}
-        <div className="lg:hidden ml-auto z-300">
+        <div className="lg:hidden z-300 ml-[190px]">
           <button  aria-label="Button" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
