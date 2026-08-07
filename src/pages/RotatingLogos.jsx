@@ -5,23 +5,23 @@ import { Link } from "react-router-dom";
 import img1 from "../assets/tracks/img1.avif";
 import img2 from "../assets/tracks/img2.avif"
 import img3  from "../assets/tracks/img3.webp";
-import img4 from "../assets/tracks/img4.jpg";
-import img5 from "../assets/tracks/img5.jpg";
-import img6 from "../assets/tracks/img6.jpg"
+import img4 from "../assets/tracks/img4.webp";
+import img5 from "../assets/tracks/img5.webp";
+import img6 from "../assets/tracks/img6.webp"
 import img7 from "../assets/tracks/img7.webp";
-import img8 from "../assets/tracks/img8.jpg"
-import img9 from "../assets/tracks/img9.jpg";
-import img10 from "../assets/tracks/img10.jpg"
-import img11 from "../assets/tracks/img11.jpeg";
-import img12 from "../assets/tracks/img12.jpg"
+import img8 from "../assets/tracks/img8.webp"
+import img9 from "../assets/tracks/img9.webp";
+import img10 from "../assets/tracks/img10.webp"
+import img11 from "../assets/tracks/img11.webp";
+import img12 from "../assets/tracks/img12.webp"
 import img13 from "../assets/tracks/img13.webp";
-import img14 from "../assets/tracks/img14.jpg"
-import img15 from "../assets/tracks/img15.jpg";
-import img16 from "../assets/tracks/img16.jpg"
-import img17 from "../assets/tracks/img17.jpg"
-import img18 from "../assets/tracks/img18.jpg";
+import img14 from "../assets/tracks/img14.webp"
+import img15 from "../assets/tracks/img15.webp";
+import img16 from "../assets/tracks/img16.webp"
+import img17 from "../assets/tracks/img17.webp"
+import img18 from "../assets/tracks/img18.webp";
 import img19 from "../assets/tracks/img19.webp"
-import img20 from "../assets/tracks/img20.png"
+import img20 from "../assets/tracks/img20.webp"
 
 export const tracks = [
   {
